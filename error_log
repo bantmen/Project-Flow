@@ -1,0 +1,103 @@
+[01-Jun-2014 10:49:57 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/flowit/public_html/myscript.php on line 8
+[01-Jun-2014 12:32:22 UTC] PHP Fatal error:  Call to undefined function send_text() in /home/flowit/public_html/indexfuck.php on line 49
+[01-Jun-2014 12:32:56 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(36): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello 1024! kam...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 1024, 'kamy_ai@yahoo.c...')
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:33:37 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(36): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 989)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:34:30 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(38): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 954)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:34:58 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number $temp is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(39): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '$temp', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 919)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:35:10 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(39): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 884)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:35:32 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(40): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 849)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:35:33 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(40): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 814)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:35:37 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(40): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 779)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:35:39 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(40): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(51): send_text(NULL, 'kamy_ai@yahoo.c...', 744)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 12:36:57 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1 is not a valid phone number.' in /home/flowit/public_html/twilio-php/Services/Twilio.php:305
+Stack trace:
+#0 /home/flowit/public_html/twilio-php/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/flowit/public_html/twilio-php/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/flowit/public_html/twilio-php/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home/flowit/public_html/aaa.php(40): Services_Twilio_Rest_Messages->sendMessage('+12892733742', '+1', 'Hello kamy_ai@y...')
+#5 /home/flowit/public_html/indexfuck.php(52): send_text(NULL, 'kamy_ai@yahoo.c...', 709)
+#6 {main}
+  thrown in /home/flowit/public_html/twilio-php/Services/Twilio.php on line 305
+[01-Jun-2014 13:04:06 UTC] PHP Fatal error:  Call to undefined function indexfuck() in /home/flowit/public_html/index.php on line 114

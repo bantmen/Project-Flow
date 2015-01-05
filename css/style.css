@@ -1,0 +1,271 @@
+
+body{
+    margin: 0;
+}
+
+#textcontainer{
+    margin: 0 auto;
+}
+
+#header{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 300px;
+    text-align: center;
+}
+
+#headertext{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#buttoncontainer{
+    width: 650px;
+    height: 210px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+.button{
+    height: 100px;
+    width: 100px;
+    line-height: 3em;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 25px 25px;
+    padding: 30px 30px;
+}
+
+.button1{
+    border: 2px solid ghostwhite;
+    background-color: #FF6633;
+    float: left;
+}
+
+.button1:hover{
+    background-color: #ff4000;
+
+}
+
+.button2{
+    border: 2px solid ghostwhite;
+    background-color: #8D8D8D;
+    float: left;
+}
+
+.button3{
+    border: 2px solid black;
+    background-color: ghostwhite;
+    float: left;
+    color: black;
+}
+
+#alerts{
+    width: 640px;
+    height: 40px;
+    padding-top:15px;
+    margin: 0 auto;
+    background-color:  #FE5353;
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: none;
+}
+
+/* ---------------------------------- */
+
+#signup{
+    position:fixed;
+    width:400px;
+    height:530px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    z-index: -1000;
+    display: none;
+    border: 1px solid #8D8D8D;
+}
+
+#signuptext{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+form{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: 0;
+}
+
+#inputcontainer{
+    background-color: #8D8D8D;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+input{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[name="name"] {
+    height: 35px;
+    width: 260px;
+    margin: 20px 20px 0 20px;
+}
+
+input[name="email"] {
+    height: 35px;
+    width: 260px;
+    margin: 20px;
+}
+
+input[name="password"] {
+    height: 35px;
+    width: 260px;
+    margin: 0 20px 20px 20px;
+}
+
+input[name="phone"] {
+    height: 35px;
+    width: 260px;
+    margin: 20px;
+    ;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    background-color: #FF6633;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: 0 none;
+}
+
+select{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 35px;
+    padding: 0 7px;
+    float: left;
+    border-radius: 7px;
+}
+
+
+/* ---------------------------------- */
+
+#main{
+    background-color:  #28B8E8;
+    /*#FC4A4C*/
+    /*#F70B2E*/
+    /*#ff0015*/
+    width: 100%;
+    color: #FFFFFF;
+    height: 760px;
+}
+
+.panel{
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.pheader{
+    font-weight: 300;
+    font-size: 90px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 800px;
+}
+
+.pcontent{
+    padding: 30px;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* ---------------------------------- */
+
+.about{
+    background-color: ghostwhite;
+    font-weight: 300;
+    color: black;
+}
+
+.explanation{
+    background-color: #FF6633;
+    color: white;
+    font-weight: 300;
+}
+
+.stores{
+    background-color: #ffd9cd;
+    color: black;
+    font-weight: 300;
+}
+
+table{
+    width: 800px;
+    background-color: ghostwhite;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.underline{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.one,.two{
+    border-right: 2px solid #e0e0e0;
+}
+
+td{
+    height: 80px;
+    width: 250px;
+}
+
+.footer{
+    background-color: #4a4a4c;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+
+#names{
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #262C2A;
+}
